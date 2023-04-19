@@ -6,7 +6,7 @@ import (
     "net"
     "sync"
 
-    "github.com/Johannestj/is105sem03/mycrypt"
+    "github.com/NorwegianKiwi-glitch/REPO3/mycrypt"
 )
 
 func main() {
