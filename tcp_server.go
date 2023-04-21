@@ -43,7 +43,7 @@ func main() {
 				defer conn.Close()
 
 				for {
-					buf := make([]byte, 1024)
+					buf := make([]byte, 2048)
 					n, err := c.Read(buf)
 					if err != nil {
 						if err != io.EOF {
